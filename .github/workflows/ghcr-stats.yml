@@ -1,0 +1,27 @@
+name: GHCR Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
+  push:
+
+jobs:
+  ghcr-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./
+        with:
+          owner: hugomods
+          repo: docker
+          name: hugo
+          path: ghcr-stats.json
+
+      - run: cat ghcr-stats.json
+      
+      # - uses: EndBug/add-and-commit@v9
+      #   with:
+      #     add: ghcr-stats.json
+      #     message: 'chore: update GHCR stats [skip ci]'

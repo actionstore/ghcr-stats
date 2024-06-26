@@ -1,0 +1,21 @@
+name: ''
+description: ''
+# branding:
+#   icon: ''
+#   color: ''
+inputs:
+  owner:
+    description: 'Repository owner'
+    required: true
+  repo:
+    description: 'Repository name'
+    required: true
+  name:
+    description: 'Package name'
+    required: true
+  path:
+    description: 'The file path'
+    default: 'ghcr-stats.json'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
