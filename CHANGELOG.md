@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/actionstore/ghcr-stats/compare/v1.0.1...v1.0.2) (2024-08-21)
+
+
+### Bug Fixes
+
+* use average daily downloads count as the value of downloads_day* ([d433034](https://github.com/actionstore/ghcr-stats/commit/d43303495973039feee88c8f471b41411ea4c41e))
+
 ## [1.0.1](https://github.com/actionstore/ghcr-stats/compare/v1.0.0...v1.0.1) (2024-08-21)
 
 
