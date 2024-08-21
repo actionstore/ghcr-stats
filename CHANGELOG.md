@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/actionstore/ghcr-stats/compare/v1.0.0...v1.0.1) (2024-08-21)
+
+
+### Bug Fixes
+
+* correct downloads_days* ([de03e2d](https://github.com/actionstore/ghcr-stats/commit/de03e2d7a4f01528aba6f73eb21aa038b9b84a06))
+
 ## 1.0.0 (2024-08-20)
 
 
