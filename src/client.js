@@ -40,22 +40,22 @@ const parse = (html) => {
         stats['last_updated'] = heading.getAttribute('title')
       }
     } else if (term.getAttribute('aria-label') === 'Downloads for the last 30 days') {
-      let today = 0
+      let yesterday = 0
       let week = 0
       let month = 0
       const days = term.querySelectorAll('svg rect[data-merge-count]')
       for (let day = 0; day < days.length; day++) {
         const count = parseInt(days[day].getAttribute('data-merge-count'))
         if (day == 0) {
-          today = count
+          yesterday = count
         }
         if (day < 7) {
           week += count
         }
         month += count
       }
-      stats['downloads_day'] = today
-      stats['downloads_day_compact'] = humanize.compactInteger(today, 1)
+      stats['downloads_day'] = yesterday
+      stats['downloads_day_compact'] = humanize.compactInteger(yesterday, 1)
       stats['downloads_week'] = week
       stats['downloads_week_compact'] = humanize.compactInteger(week, 1)
       stats['downloads_month'] = month

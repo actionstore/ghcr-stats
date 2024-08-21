@@ -48,8 +48,8 @@ jobs:
 | `last_updated` | string | Last updated time. |
 | `downloads` | number | The total downloads count. |
 | `downloads_compact` | string | The humanized version of total downloads count. |
-| `downloads_day` | number | The downloads count of today. |
-| `downloads_day_compact` | string | The humanized version of downloads count of today. |
+| `downloads_day` | number | The downloads count of yesterday. |
+| `downloads_day_compact` | string | The humanized version of downloads count of yesterday. |
 | `downloads_week` | number | The downloads count within last 7 days. |
 | `downloads_week_compact` | string | The humanized version of downloads count within last 7 days. |
 | `downloads_month` | number | The downloads count within last 30 days. |
