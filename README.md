@@ -18,7 +18,7 @@ name: GHCR Stats
 on:
   workflow_dispatch: # to debug via triggering the workflow manually.
   schedule:
-    - cron: '0 * * * *' # run job hourly, I'd suggest not setting the interval too narrow, to avoid abusing GitHub resources.
+    - cron: '0 0 * * *' # run job daily, I'd suggest not setting the interval too narrow, to avoid abusing GitHub resources.
 
 jobs:
   ghcr-stats:
