@@ -51,7 +51,7 @@ const parse = (html) => {
         }
         month += count
       }
-      average = parseInt(month / days.length)
+      average = parseInt(week / 7)
       stats['downloads_day'] = average
       stats['downloads_day_compact'] = humanize.compactInteger(average, 1)
       stats['downloads_week'] = week
