@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/actionstore/ghcr-stats/compare/v1.0.3...v1.0.4) (2024-09-20)
+
+
+### Bug Fixes
+
+* make sure directory was created before writing stats file ([#5](https://github.com/actionstore/ghcr-stats/issues/5)) ([f636923](https://github.com/actionstore/ghcr-stats/commit/f63692376163b5d688dd78551625e9da2e32781a))
+
 ## [1.0.3](https://github.com/actionstore/ghcr-stats/compare/v1.0.2...v1.0.3) (2024-08-29)
 
 
