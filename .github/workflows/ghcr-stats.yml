@@ -17,9 +17,9 @@ jobs:
           owner: hugomods
           repo: docker
           name: hugo
-          path: ghcr-stats.json
+          path: hugomods/docker/hugo.json
 
-      - run: cat ghcr-stats.json
+      - run: cat hugomods/docker/hugo.json
       
       # - uses: EndBug/add-and-commit@v9
       #   with:

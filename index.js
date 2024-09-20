@@ -1,6 +1,8 @@
 const core = require('@actions/core');
 const client = require('./src/client.js');
 const fs = require('node:fs');
+const {mkdirp} = require('mkdirp');
+const dirname = require('path').dirname
 
 try {
   const owner = core.getInput('owner');
@@ -10,7 +12,9 @@ try {
   client.request(owner, repo, name)
     .then((stats) => {
       const content = JSON.stringify(stats, null, 2)
-      fs.writeFileSync(path, content)
+      mkdirp(dirname(path)).then(() => {
+        fs.writeFileSync(path, content)
+      })
     })
 } catch (error) {
   core.setFailed(error.message);
