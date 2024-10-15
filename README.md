@@ -57,16 +57,16 @@ jobs:
 
 ## Badges
 
-With [Shields.io Dynamic JSON Badge](https://shields.io/badges/dynamic-json-badge) service, it's easy to generate GHCR badges, to use it, just replace the following raw stats file URL (`https://raw.githubusercontent.com/hugomods/docker/main/ghcr-stats.json` in this example) with yours.
+With [Shields.io Dynamic JSON Badge](https://shields.io/badges/dynamic-json-badge) service, it's easy to generate GHCR badges, to use it, just replace the following raw stats file URL (`https://raw.githubusercontent.com/ghcr-stats/db/main/hugomods/docker/hugo.json` in this example) with yours.
 
-![GHCR Pulls](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hugomods/docker/main/ghcr-stats.json&query=downloads_compact&label=ghcr+pulls&style=flat-square)
-![GHCR Pulls Monthly](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hugomods/docker/main/ghcr-stats.json&query=downloads_month_compact&label=ghcr+pulls&suffix=/month&style=flat-square)
-![GHCR Pulls Weekly](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hugomods/docker/main/ghcr-stats.json&query=downloads_week_compact&label=ghcr+pulls&suffix=/week&style=flat-square)
-![GHCR Pulls Daily](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hugomods/docker/main/ghcr-stats.json&query=downloads_day_compact&label=ghcr+pulls&suffix=/day&style=flat-square)
+![GHCR Pulls](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ghcr-stats/db/main/hugomods/docker/hugo.json&query=downloads_compact&label=ghcr+pulls&style=flat-square)
+![GHCR Pulls Monthly](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ghcr-stats/db/main/hugomods/docker/hugo.json&query=downloads_month_compact&label=ghcr+pulls&suffix=/month&style=flat-square)
+![GHCR Pulls Weekly](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ghcr-stats/db/main/hugomods/docker/hugo.json&query=downloads_week_compact&label=ghcr+pulls&suffix=/week&style=flat-square)
+![GHCR Pulls Daily](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ghcr-stats/db/main/hugomods/docker/hugo.json&query=downloads_day_compact&label=ghcr+pulls&suffix=/day&style=flat-square)
 
 ```markdown
-![GHCR Pulls](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hugomods/docker/main/ghcr-stats.json&query=downloads_compact&label=ghcr+pulls&style=flat-square)
-![GHCR Pulls Monthly](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hugomods/docker/main/ghcr-stats.json&query=downloads_month_compact&label=ghcr+pulls&suffix=/month&style=flat-square)
-![GHCR Pulls Weekly](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hugomods/docker/main/ghcr-stats.json&query=downloads_week_compact&label=ghcr+pulls&suffix=/week&style=flat-square)
-![GHCR Pulls Daily](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hugomods/docker/main/ghcr-stats.json&query=downloads_day_compact&label=ghcr+pulls&suffix=/day&style=flat-square)
+![GHCR Pulls](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ghcr-stats/db/main/hugomods/docker/hugo.json&query=downloads_compact&label=ghcr+pulls&style=flat-square)
+![GHCR Pulls Monthly](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ghcr-stats/db/main/hugomods/docker/hugo.json&query=downloads_month_compact&label=ghcr+pulls&suffix=/month&style=flat-square)
+![GHCR Pulls Weekly](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ghcr-stats/db/main/hugomods/docker/hugo.json&query=downloads_week_compact&label=ghcr+pulls&suffix=/week&style=flat-square)
+![GHCR Pulls Daily](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ghcr-stats/db/main/hugomods/docker/hugo.json&query=downloads_day_compact&label=ghcr+pulls&suffix=/day&style=flat-square)
 ```
